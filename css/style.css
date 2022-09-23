@@ -1,0 +1,476 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* ////////// special code for navbar///////// */
+.navbar-brand,
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.fa-angle-right {
+
+    position: absolute;
+    top: 50px;
+    right: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+.links {
+    overflow: hidden;
+}
+
+.active1 {
+    width: 90%;
+    position: relative;
+    color: #fff;
+    height: 2px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+
+}
+
+.sub-menu {
+    display: none;
+}
+
+.hover-me:hover .sub-menu {
+    display: block;
+    position: absolute;
+    left: 101%;
+    top: 0px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+.hover {
+    position: relative;
+    color: #fff;
+    height: 2px;
+    background-color: #fff;
+    top: 0;
+    left: -100%;
+    transition: left 1s;
+}
+
+.links:hover .hover {
+    left: 0;
+
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+span i {
+    color: #fff;
+}
+
+/* ////////// special code for header///////// */
+
+
+header {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* width: 100%;
+    height: 100%; */
+
+
+}
+
+.caption h1 {
+
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 1.2;
+}
+
+.typing::after {
+    content: '|';
+    animation: typing 2s alternate infinite;
+
+}
+
+@keyframes typing {
+
+    /* Designer| Freelancer| Developer| Photographer  */
+    0% {
+        content: 'D|'
+    }
+
+    2% {
+        content: 'De|'
+    }
+
+    4% {
+        content: 'Des|'
+    }
+
+    6% {
+        content: 'Desi|'
+    }
+
+    8% {
+        content: 'Desig|'
+    }
+
+    10% {
+        content: 'Design|'
+    }
+
+    12% {
+        content: 'Designe|'
+    }
+
+    14% {
+        content: 'Designer|'
+    }
+
+    16% {
+        content: 'Designer|'
+    }
+
+    18% {
+        content: 'Designer|'
+    }
+
+    20% {
+        content: 'Designer|'
+    }
+
+    22% {
+        content: 'Designer|'
+    }
+
+    24% {
+        content: 'Designer|'
+    }
+
+    28% {
+        content: 'Designe|'
+    }
+
+    30% {
+        content: 'Design|'
+    }
+
+    32% {
+        content: 'Desig|'
+    }
+
+    34% {
+        content: 'Desi|'
+    }
+
+    36% {
+        content: 'Des|'
+    }
+
+    38% {
+        content: 'De|'
+    }
+
+    40% {
+        content: 'D|'
+    }
+
+    42% {
+        content: 'D|'
+    }
+
+    44% {
+        content: 'De|'
+    }
+
+    46% {
+        content: 'Dev|'
+    }
+
+    48% {
+        content: 'Deve|'
+    }
+
+    50% {
+        content: 'Devel|'
+    }
+
+    52% {
+        content: 'Develo|'
+    }
+
+    54% {
+        content: 'Develop|'
+    }
+
+    56% {
+        content: 'Develope|'
+    }
+
+    58% {
+        content: 'Developer|'
+    }
+
+    60% {
+        content: 'Developer|'
+    }
+
+    62% {
+        content: 'Developer|'
+    }
+
+    64% {
+        content: 'Developer|'
+    }
+
+    68% {
+        content: 'Developer|'
+    }
+
+    70% {
+        content: 'Developer|'
+    }
+
+    72% {
+        content: 'Develope|'
+    }
+
+    74% {
+        content: 'Develop|'
+    }
+
+    76% {
+        content: 'Develo|'
+    }
+
+    78% {
+        content: 'Devel|'
+    }
+
+    80% {
+        content: 'Deve|'
+    }
+
+    82% {
+        content: 'Dev|'
+    }
+
+    84% {
+        content: 'De|'
+    }
+
+    86% {
+        content: 'D|'
+    }
+
+    88% {
+        content: '|'
+    }
+
+    90% {
+        content: '|'
+    }
+
+
+
+
+
+
+
+
+}
+
+/* //// img section about // */
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+/* /////circle in section services/// */
+.circle {
+    width: 120px;
+    height: 120px;
+    border: 10px solid rgb(52, 127, 240);
+    border-radius: 50%;
+
+
+}
+
+.card:hover .circle {
+    border-color: rgb(192, 189, 189);
+    background-color: rgb(60, 57, 241);
+
+}
+
+.card:hover .circle i {
+    color: #fff;
+
+}
+
+/* //////section3// */
+.section3 {
+
+    background-image: url(../img/counters-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* height: 100%;
+    
+    width: 100%; */
+
+
+
+}
+
+/* ///for circle around icons// */
+.circle-icons {
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgb(162, 193, 240);
+    border-radius: 50%;
+
+}
+
+.image {
+    width: 35px;
+    height: 35px;
+}
+
+/* ////////////////////////////// */
+.card1 {
+    overflow: hidden;
+    transition: transform 2s ease-in-out;
+}
+
+.card1:hover img {
+    transform: scale(1.2);
+}
+
+.plus {
+    width: 30px;
+    height: 30px;
+    border: 3px solid rgb(122, 122, 245);
+    border-radius: 50%;
+
+}
+
+.layer {
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+
+    width: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+
+}
+
+.work-text {
+    font-size: 14px;
+}
+
+.img1 {
+    position: relative;
+}
+
+.img1::after {
+    content: 'travel';
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(48, 48, 252);
+    padding: 6px;
+    ;
+    /* margin-bottom: 10px; */
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 5px;
+}
+
+.img2 {
+    position: relative;
+}
+
+.img2::after {
+    content: 'WEB DESIGN';
+    color: #fff;
+    font-size: 12px;
+
+    background-color: rgb(48, 48, 245);
+    padding: 6px;
+    /* margin-bottom: 10px; */
+    position: absolute;
+    bottom: 0%;
+
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 5px;
+}
+
+.img3 {
+    position: relative;
+}
+
+.img3::after {
+    content: 'WEB DESIGN';
+    color: #fff;
+    font-size: 12px;
+
+    background-color: rgb(54, 54, 241);
+    padding: 6px;
+    ;
+    /* margin-bottom: 10px; */
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 5px;
+}
+
+.icons6 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.icons6 i {
+    font-size: 20px;
+}
+
+.icons6:hover {
+    background-color: blue;
+    border: rgb(158, 156, 156);
+}
+
+.icons6:hover.icons6 i {
+    color: #fff;
+}

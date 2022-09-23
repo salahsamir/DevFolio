@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-brand,.nav-link{
+    color: #fff;
+    font-weight: 500;
+}
+.fa-angle-right{
+  
+    position: absolute;
+    top: 50px;
+    right: 2px;
+}
+ul{
+    list-style: none;
+}
+.sub-mune{
+    display: none;
+}
+.hover-me:hover .sub-mune{
+    display: block;
+    position: absolute;
+    left: 101%;
+    top: 0px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+.hov{
+    overflow: hidden;
+}
+.hover{
+    position: relative;
+    color: #fff;
+    height: 2px;
+    background-color: #fff;
+    top: 0;
+    left: -100%;
+    transition: left 1s;
+}
+.hov:hover .hover{
+    left: 0;
+ 
+}
+.nav-link:hover,.navbar-brand:hover{
+    color: #fff;
+}
+  
+span i{
+    color: #fff;
+}
+
+.header{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+  background-attachment: fixed;
+    height: 100%;
+   
+    width: 100%;
+
+
+}
+.caption h1{
+    
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 1.2;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border :1px solid blue;
+    
+  
+   
+}
+.carousel-indicators [data-bs-target]:hover{
+    background-color: blue;
+    border :1px solid blue;
+}
